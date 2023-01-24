@@ -4,7 +4,8 @@ Once that new array is created it will act like your data source.
 
 Write functions that will perform the following operation on the above array.
 1. Find an employee with specific id. (id is the unique primary key for search)
-  a. eg findEmployeeById( id: "1"  ) should return a single object from the array that has "id = 1".
+   a. eg findEmployeeById( id: "1"  ) should return a single object from the array that has "id = 1".
+ 
   
 2. Find an employee information that matches the search object passed as an argument.
   a. eg findEmployee( { name: "Employee Name" } ) should return a single object from the array that has "name = Employee Name". Assume that the search object passed into the function contains only those keys that are present in the Employee object.
