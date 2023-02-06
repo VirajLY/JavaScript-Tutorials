@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    margin-top: 1.5%;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+:root{
+    --accent-primary:blueviolet;
+}
+
+.backButton{
+    background-color: black;
+    color: white;
+    padding: 1% 1% 1% 1%;
+    margin: 0 0 0 10px;
+    text-decoration: none;
+    border-radius: 6%;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.cartButtonContainer a{
+    background-color: black;
+    color: white;
+    padding: 5% 2%;
+    margin: 0 10px 0 0; 
+    text-decoration: none;
+    border-radius: 6%;
+}
+.cartButtonContainer{
+    width: 200px;
+}
+.subContainer{
+    display: flex;
+}
+.cartContainer{
+    margin-top: 100px ;
+    border: 1px solid blue;
+    width: 40%;
+}
+#cartHeading{
+    color: white;
+    margin: 0;
+    padding: 5% 0;
+    text-align: center;
+    background-color: var(--accent-primary);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.phonesContainer{
+    margin-top: 100px;
+}
+.smartphoneContainer{
+    display: flex;
+    border-bottom: 1px solid black;
+    column-gap: 15%;
+    justify-content: right;
+}
+.smartphoneContent{
+    width : 30%;
+}
+.counterContainer{
+    display: flex;
+    align-items: center;
+}
+.counterContainer button{
+    padding: 0 15px;
+ }
+.counterContainer p{
+    margin: 5% ;
+    padding: 0 10%;
+    border: 1px solid black;
+}
+.cartButton{
+    padding: 3% 4%;
+    cursor: pointer;
+    margin: 5% 0;
+    background-color: var(--accent-primary);
+    color: white;
+    border: 0;
+    border-radius: 5%;
+}
+.cartButton:active{
+    transform: scale(0.9);
+}
+#smartphoneid,#category{
+    font-style: italic;
+    /* font-weight: 100; */
+    /* font-size: 1rem; */
+}
+.cartDiv{
+    display: flex;
+    column-gap: 5%;
+    background-color: rgb(222, 187, 255);
+    border-bottom: 0.5px solid black;
+}
+#cartThumbnail{
+    width: 10vw;
+    height: 100%;
+}
+.cartHeadingDiv{
+    margin: 0;
+    padding: 0;
+}
+#cartItemHeading{
+    padding: 0;
+    font-size: 1.2rem;
+    color: red;
+}
+#cartThumbnail{
+    margin: 0;
+}
+#cartPrice{
+    font-style: italic;
+    font-weight: 100;
+    font-size: 0.7rem;
+}
+.totalCartDiv{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 3% 0;
+    font-size: 0.9rem;
+}
+#totalPrice{
+    margin: 0;
+    padding-top: 3%;
+}

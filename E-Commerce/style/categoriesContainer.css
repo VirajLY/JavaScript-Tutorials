@@ -1,0 +1,33 @@
+.categoriesContainer{
+    text-align: center;
+}
+#categoriesHeading{
+    margin-top: 2%;
+    font-size: 3rem;
+    color: var(--accent-primary);
+}
+.categoryLink{
+    text-decoration: none;
+    color: black;
+}
+.category{
+    display:inline-flex;
+    margin: 2% ;
+    border: 1.5px solid var(--accent-primary);
+    border-radius: 5%;
+    padding: 1%;
+    cursor: pointer;
+}
+
+.category:hover{
+    background-color: rgb(192, 131, 249);
+    color: white;
+}
+.category:active{
+    transform: scale(0.8);
+}
+
+/* .categories{
+    display: flex ;
+    column-gap: 50%;
+} */
