@@ -1,7 +1,7 @@
-import Mount from "./Mount/Mount.js";
-import UniqueId from "./UniqueId/UniqueId.js";
-import Cart from "./Cart/Cart.js";
-import { SmartphonesContainer } from "./SmartphonesContainer/SmartphonesContainer.js";
+import Mount from "../Mount/Mount.js";
+import UniqueId from "../UniqueId/UniqueId.js";
+import Cart from "../Cart/Cart.js";
+import { SmartphonesContainer } from "../SmartphonesContainer/SmartphonesContainer.js";
 
 class CartButton extends Mount{
     constructor(addToCart){
