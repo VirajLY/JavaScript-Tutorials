@@ -1,4 +1,4 @@
-import Mount from "./Mount.js";
+import Mount from "./Mount/Mount.js";
 
 class Cart extends Mount{
     constructor(cartItems){
