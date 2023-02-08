@@ -1,6 +1,6 @@
-import Mount from "./Mount.js";
-import Counter from "./Counter.js";
-import CartButton from "./CartButton.js";
+import Mount from "./Mount/Mount.js";
+import Counter from "./Counter/Counter.js";
+import CartButton from "./CartButton/CartButton.js";
 
 class Smartphone extends Mount{
     constructor(data,addToCart){
