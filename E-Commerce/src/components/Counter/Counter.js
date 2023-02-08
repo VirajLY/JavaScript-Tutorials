@@ -1,5 +1,5 @@
-import Mount from "./Mount/Mount.js";
-import UniqueId from "./UniqueId/UniqueId.js";
+import Mount from "../Mount/Mount.js";
+import UniqueId from "../UniqueId/UniqueId.js";
 
 class Counter extends Mount{
     constructor(){
