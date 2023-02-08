@@ -1,6 +1,6 @@
-import Mount from "./Mount.js";
-import { Smartphone } from "./Smartphone.js";
-import Cart from "./Cart.js";
+import Mount from "./Mount/Mount.js";
+import { Smartphone } from "./Smartphone/Smartphone.js";
+import Cart from "./Cart/Cart.js";
 
 class SmartphonesContainer extends Mount{
     constructor(data){
