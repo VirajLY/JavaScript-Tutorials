@@ -1,5 +1,5 @@
-import Mount from "./Mount.js";
-import { Category } from "./Category.js";
+import Mount from "./Mount/Mount.js";
+import { Category } from "./Category/Category.js";
 
 class CategoriesContainer extends Mount{
     constructor(data){
