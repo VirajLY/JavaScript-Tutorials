@@ -1,4 +1,4 @@
-import { CategoriesContainer } from "./components/CategoriesContainer.js";
+import { CategoriesContainer } from "./components/CategoriesContainer/CategoriesContainer.js";
 
 const root = document.getElementById("root");
 const categoriesurl = "https://dummyjson.com/products/categories";
