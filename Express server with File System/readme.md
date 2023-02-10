@@ -12,7 +12,14 @@ const express = require("express);
 
 const fs = require("fs");
  ```
-
+To run the project, use following command in the terminal
+```bash
+node app.js
+```
+If you have nodemon installed then run following command
+```bash
+nodemon app.js
+```
  In this project there are 4 components in src:
 - controllers:
 Controllers are responsible for defining the responses to requests from Routers.
