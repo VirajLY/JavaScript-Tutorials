@@ -1,0 +1,15 @@
+{
+  "name": "express-server-with-file-system",
+  "version": "1.0.0",
+  "description": "REST api using the underlying file system",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "express-server",
+    "REST-api"
+  ],
+  "author": "Viraj Yadav",
+  "license": "ISC"
+}
