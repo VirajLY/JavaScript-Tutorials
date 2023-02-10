@@ -10,7 +10,7 @@ For this project, we will require two built-in modules. i.e. fs and express:
 ```javascript
 const express = require("express);
 
-const fs = require("fs")
+const fs = require("fs");
  ```
 
  In this project there are 4 components in src:
