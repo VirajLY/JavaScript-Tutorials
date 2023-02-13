@@ -9,3 +9,4 @@ In timer component, the timers is supposed to start when start button is clicked
 The webpage also has toggle button to turn the dark mode on 
 
 ## Live Link
+https://virajly.github.io/JavaScript-Tutorials/JavaScript%20Components%20counter%20&%20timer/
